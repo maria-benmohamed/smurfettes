@@ -1,19 +1,16 @@
-import { StatusBar } from 'expo-status-bar';
-import { SafeAreaView, StyleSheet, Text, View } from 'react-native';
+// App.js
+
+// first form
+
+import React from "react";
+import { SafeAreaView } from "react-native";
+
+import Navigation from "./app/Navigation";
 
 export default function App() {
   return (
     <SafeAreaView>
-      <Text>home screen</Text>
+      <Navigation />
     </SafeAreaView>
   );
 }
-
-const styles = StyleSheet.create({
-  // container: {
-  //   flex: 1,
-  //   backgroundColor: '#fff',
-  //   alignItems: 'center',
-  //   justifyContent: 'center',
-  // },
-});
